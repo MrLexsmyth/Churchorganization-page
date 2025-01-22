@@ -17,15 +17,22 @@
 
   
   .nav {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: var(--header-height);
     padding: 0 1rem;
     background-color:white;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000; /* Keep it above other elements */
   }
   
- 
+
+
+ .logo-img{
+  margin-left: 100px;
+ }
   
   .nav__menu {
     position: fixed;
