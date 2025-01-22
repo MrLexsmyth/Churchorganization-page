@@ -1,21 +1,24 @@
-import Navbar from '../components/Navbar/Navbar.tsx'
-import Slider from '../components/Slider/Slider.tsx'
-import Header from '../components/Header/Header.tsx'
+ import Navbar from '../components/Navbar/Navbar.tsx'
+ import Header from '../components/Header/Header.tsx';
+ import { Routes, Route } from 'react-router-dom';
+import Home from './Home.tsx';
+
 import './App.css'
 
-function App() {
- 
-
+const App = () => {
   return (
-    
-    <div>
-      <Header />
+    <>
+    <Header />
     <Navbar />
-    <Slider />
-    </div>
-       
     
-  )
-}
+     <Routes>
+        <Route path="/" element={<Home />} />
+       
+      </Routes>
+     
+   
+    </>
+  );
+};
 
-export default App
+export default App;
