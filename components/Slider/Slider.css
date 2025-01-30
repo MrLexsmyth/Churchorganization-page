@@ -51,9 +51,18 @@ blockquote p::after {
     color: rgb(5, 14, 21);
     margin-top: 5px;
 }
+span{
+    color: rgb(220,166,40);
+    
+}
 
 @media screen and (max-width: 768px) {
     .slider {
       height: 300px;
+    }
+
+    .welcome-title{
+        font-size: 22px;
+        line-height: 25px;
     }
   }
