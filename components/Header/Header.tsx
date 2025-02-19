@@ -1,5 +1,5 @@
 
-
+import React from "react"
 import "./Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
@@ -18,9 +18,9 @@ const Header = () => {
       </div>
       <div className="social">
       <div className='icons'>
-                <a href="http://https://facebook.com/groups/234019274379033/">
+                <a href="https://facebook.com/groups/234019274379033/">
                 <FontAwesomeIcon icon={faFacebook} style={{ color: 'blue', fontSize: '15px' }} /> </a>
-                <a href="https://https://www.instagram.com/cgprc?igsh=N2V4MmZtc3NlcXVw">
+                <a href="https://www.instagram.com/cgprc?igsh=N2V4MmZtc3NlcXVw">
                 <FontAwesomeIcon icon={faInstagram} style={{ color: 'red', fontSize: '15px' }} /></a>
                 <a href="https://wa.me/2348053006678">
                 <FontAwesomeIcon icon={faWhatsapp} style={{ color: 'green', fontSize: '15px' }} /></a>
