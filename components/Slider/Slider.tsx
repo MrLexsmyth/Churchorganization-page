@@ -1,5 +1,6 @@
-
+import React from "react"
 import "./Slider.css";
+
 
 
 const Slider = () => {
@@ -9,7 +10,17 @@ const Slider = () => {
           <img src={'/hero.jpg'} alt="About logo"  className='slider' /> 
         </div>
         <div className="contain">
-               <h1 className="welcome-title">WELCOME TO THE <span>CHRIST GRACE</span> EXPERIENCE</h1>
+        <h1 className="welcome-title">WELCOME TO THE <span className="key">C</span>
+               <span className="key">H</span>
+               <span className="key">R</span>
+               <span className="key">I</span>
+               <span className="key">S</span>
+               <span className="key">T</span> 
+               <span> G</span>
+               <span>R</span>
+               <span>A</span>
+               <span>C</span>
+               <span>E</span> EXPERIENCE</h1>
                <blockquote>
                <p>God has given us a mandate to raise role models, and He has indeed been faithful, 
                   backing our dedication and hard work with a great harvest of transformed lives. 
