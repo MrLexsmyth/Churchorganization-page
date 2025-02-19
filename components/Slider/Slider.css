@@ -3,6 +3,7 @@
     font-size: 1.3em;
     font-weight: 500;
     padding: 50px;
+    margin-bottom: -50px;
 }
 blockquote{
     font-family: Georgia, serif;
@@ -40,6 +41,9 @@ blockquote p::after {
     height: 600px;
     width: 100%;
     object-fit: fill;
+    clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0% 90%);
+    /* clip-path: ellipse(80% 90% at 50% 100%); */
+    
 }
 .welcome-title{
     font-size: 50px;
@@ -51,9 +55,18 @@ blockquote p::after {
     color: rgb(5, 14, 21);
     margin-top: 5px;
 }
+span{
+    color: rgb(220,166,40);
+    
+}
 
 @media screen and (max-width: 768px) {
     .slider {
       height: 300px;
+    }
+
+    .welcome-title{
+        font-size: 22px;
+        line-height: 25px;
     }
   }
