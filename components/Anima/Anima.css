@@ -1,0 +1,57 @@
+.whole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+    background: #121212;
+   font-family: Georgia, serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.split-text-container {
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    overflow: hidden;
+}
+
+.text-part {
+    display: inline-block;
+    position: relative;
+    transform: translateX(0);
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.text-part.left {
+    transform: translateX(-200%);
+    animation-name: slide-in-left;
+}
+
+.text-part.right {
+    transform: translateX(200%);
+    animation-name: slide-in-right;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
