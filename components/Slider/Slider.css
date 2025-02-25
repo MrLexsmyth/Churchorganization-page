@@ -56,13 +56,14 @@ blockquote p::after {
     color: rgb(5, 14, 21);
     margin-top: 5px;
 }
-span{
-    color: rgb(220,166,40);
-    
+.ke{
+  color: rgb(220,166,40);
+
 }
 
 .key, .keyy {
-  
+  color: rgb(220,166,40);
+
     display: inline-block;
     letter-spacing: 0vw;
     transition: transform 0.2s;

@@ -16,11 +16,11 @@ const Slider = () => {
                <span className="key">I</span>
                <span className="key">S</span>
                <span className="key">T</span> 
-               <span> G</span>
-               <span>R</span>
-               <span>A</span>
-               <span>C</span>
-               <span>E</span> EXPERIENCE</h1>
+               <span className="ke"> G</span>
+               <span className="ke">R</span>
+               <span className="ke">A</span>
+               <span className="ke">C</span>
+               <span className="ke">E</span> EXPERIENCE</h1>
                <blockquote>
                <p>God has given us a mandate to raise role models, and He has indeed been faithful, 
                   backing our dedication and hard work with a great harvest of transformed lives. 
