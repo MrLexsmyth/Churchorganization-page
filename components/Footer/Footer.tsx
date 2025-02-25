@@ -2,7 +2,9 @@ import React from 'react';
 import { Church, Clock, Mail, MapPin, Phone } from 'lucide-react';
 import './Footer.css';
 
-const Footer = () => {
+const Footer = (
+  
+) => {
   const handleNewsletterSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Add newsletter subscription logic here
@@ -34,13 +36,14 @@ const Footer = () => {
           {/* Quick Links */}
           <div className="footer-section">
             <h3 className="footer-heading">Quick Links</h3>
-            <ul className="quick-links">
-              {['About Us', 'Ministries', 'Events', 'Sermons', 'Give'].map((link) => (
+
+            <div className="quick-links">
+              { ['About Us', 'Ministries', 'Events', 'Sermons', 'Give'] .map((link) => (
                 <li key={link}>
                   <a href="#">{link}</a>
                 </li>
               ))}
-            </ul>
+            </div>
           </div>
 
           {/* Service Times */}
@@ -48,7 +51,7 @@ const Footer = () => {
             <h3 className="footer-heading">Service Times</h3>
             <div className="contact-info">
               <div className="service-time">
-                <Clock size={20} />
+                <Clock size={30} />
                 <div className="service-time-details">
                   <p className="service-time-title">Sunday Services</p>
                   <p>8:00 AM - Sunday School</p>
@@ -56,7 +59,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="service-time">
-                <Church size={20} />
+                <Church size={30} />
                 <div className="service-time-details">
                   <p className="service-time-title">Monday Evening</p>
                   <p>5:30 PM - Bible Study</p>
@@ -84,7 +87,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="footer-bottom">
           <p className="copyright">
-            © 2024 Christ Grace Pentecostal Revelation Church. All rights reserved.
+            © 2025 Christ Grace Pentecostal Revelation Church. All rights reserved.
           </p>
          
         </div>

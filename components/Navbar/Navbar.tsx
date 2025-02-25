@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
           <li className="nav__item"><Link className="nav__link" to="/">Home</Link></li>
           <li className="nav__item"><Link className="nav__link" to="/about">About Us</Link></li>
           <li className="nav__item"><Link className="nav__link" to="/services">Services</Link></li>
-          <li className="nav__item"><Link className="nav__link" to="/featured">Give</Link></li>
+          <li className="nav__item"><Link className="nav__link" to="/give">Give</Link></li>
           <li className="nav__item"><Link className="nav__link" to="/contact">Contact Us</Link></li>
         </ul>
         <button className="nav__close" onClick={() => setIsMenuOpen(false)} aria-label="Close menu">×</button>

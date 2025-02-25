@@ -8,7 +8,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
     background-color: var(--body-color);
     margin: 0;
   }
@@ -47,6 +47,7 @@
     justify-content: center;
     transition: top 0.3s ease-in-out;
     z-index: 99;
+    margin-right: 100px;
   }
   
   .nav__list {
@@ -63,6 +64,7 @@
     font-weight: var(--font-semi-bold);
     color: var(--title-color);
     transition: color 0.2s;
+    margin-right: 30px;
   }
   
   .nav__link:hover {

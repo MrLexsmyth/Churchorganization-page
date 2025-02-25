@@ -1,4 +1,4 @@
-import React from "react"
+
 import "./Connect.css"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faWhatsapp, faYoutube} from '@fortawesome/free-brands-svg-icons';
@@ -8,6 +8,7 @@ import { faFacebook, faInstagram, faWhatsapp, faYoutube} from '@fortawesome/free
 const Connect = () => {
   return (
     <div className="connect"> 
+   
           <h1 className="connect-text">
                 Connect with us on <br />
                 Our Social media platforms.

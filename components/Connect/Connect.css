@@ -4,10 +4,9 @@
     background-position: center;
     background-repeat: no-repeat;
     border-radius:  50px 50px 0 0;
-    height: 65vh;
-  
-    
+    height: 65vh;  
   }
+
   .connect-text{
     max-width: 100%; 
     color: rgb(41,21,6);
@@ -15,8 +14,7 @@
     font-weight: 700;
     font-size: 5vw; /* 5% of the viewport width */
     font-family: "EB Garamond", serif;
-    padding-top: 70px;
-    
+    padding-top: 70px; 
   }
  
   .connect-icons{
