@@ -129,6 +129,21 @@
     font-size: 0.875rem;
     font-family: 'Inter', sans-serif;
   }
+  .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50px;
+    text-align: center;
+    
+    z-index: 100;
+}
+.whatsapp-icon {
+  margin-top: 16px;
+}
   
   
   @keyframes fadeIn {
@@ -156,3 +171,17 @@
       grid-template-columns: repeat(4, 1fr);
     }
   }
+  /* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+      margin-top: 10px;
+  }
+
+  .whatsapp_float {
+      width: 60px;
+      height: 60px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
+}

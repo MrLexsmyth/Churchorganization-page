@@ -10,17 +10,22 @@ const Slider = () => {
           <img src={'/hero.jpg'} alt="About logo"  className='slider' /> 
         </div>
         <div className="contain">
-        <h1 className="welcome-title">WELCOME TO THE <span className="key">C</span>
+        <h1 className="welcome-title">WELCOME TO THE <span className="no-break">
+
+               <span className="key">C</span>
                <span className="key">H</span>
                <span className="key">R</span>
                <span className="key">I</span>
                <span className="key">S</span>
                <span className="key">T</span> 
-               <span className="ke"> G</span>
-               <span className="ke">R</span>
-               <span className="ke">A</span>
-               <span className="ke">C</span>
-               <span className="ke">E</span> EXPERIENCE</h1>
+               <span className="space">-</span>
+               <span className="key">G</span>
+               <span className="key">R</span>
+               <span className="key">A</span>
+               <span className="key">C</span>
+               <span className="key">E</span>
+
+               </span> EXPERIENCE</h1>
                <blockquote>
                <p>God has given us a mandate to raise role models, and He has indeed been faithful, 
                   backing our dedication and hard work with a great harvest of transformed lives. 

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Church, Clock, Mail, MapPin, Phone } from 'lucide-react';
 import './Footer.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = (
   
@@ -89,9 +91,21 @@ const Footer = (
           <p className="copyright">
             © 2025 Christ Grace Pentecostal Revelation Church. All rights reserved.
           </p>
+          <a href="http://wa.me/2348169273808">Designed and Develop By Shittu Odunayo.</a>
          
         </div>
+        <div>
+      <a
+        href="https://wa.me/2348053006678"
+        className="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      > 
+        <FontAwesomeIcon icon={faWhatsapp} className='whatsapp-icon' style={{ color: 'green', fontSize: '24px' }} />
+      </a>
+    </div>
       </div>
+     
     </footer>
   );
 };

@@ -8,15 +8,13 @@
   }
   
   body {
-    /* font-family: Arial, sans-serif; */
-    background-color: var(--body-color);
     margin: 0;
   }
 
   .nav {
+    background-color: #283155;
     position: sticky;
     top: 0;
-    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,11 +25,18 @@
   }
 
   .navbar-bg {
-    background-color: rgb(255,255,255, 0.9)!important; 
+    background-color:
+    #00aaff!important; 
+  
+  
   }
   
   .logo{
   border-radius: 50%;
+}
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
 }
 
   .nav__menu {
@@ -62,7 +67,7 @@
   .nav__link {
     text-decoration: none;
     font-weight: var(--font-semi-bold);
-    color: var(--title-color);
+  
     transition: color 0.2s;
     margin-right: 30px;
   }
